@@ -1,2 +1,1 @@
-# Jeter361.github.io
-E-Portfolio
+https://jeter361.github.io/E-Portfolio/

@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex Walker | Cybersecurity & IT Support</title>
+  <title>Alex Walker | Cybersecurity & IT Portfolio</title>
 
-  <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
   />
   <link
@@ -20,17 +19,23 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ================= HEADER / NAV ================= -->
   <header class="site-header">
-    <div class="logo-mark">AW</div>
+    <a href="#home" class="logo-wrap" aria-label="Go to home">
+      <div class="logo-mark">AW</div>
+    </a>
+
     <nav class="nav">
       <a href="#home" class="nav-link active">Home</a>
       <a href="#about" class="nav-link">About</a>
+      <a href="#resume" class="nav-link">Resume</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#education" class="nav-link">Education</a>
       <a href="#experience" class="nav-link">Experience</a>
-      <a href="#cyse" class="nav-link">CYSE 201S</a>
-      <a href="#internship" class="nav-link">Internship</a>
+      <a href="#current-role" class="nav-link">Current Role</a>
+      <a href="#past-internship" class="nav-link">Past Internship</a>
+      <a href="#ids493" class="nav-link">IDS 493</a>
+      <a href="#coursework" class="nav-link">Coursework</a>
+      <a href="#contact" class="nav-link">Contact</a>
     </nav>
 
     <button class="nav-toggle" aria-label="Toggle navigation">
@@ -38,636 +43,656 @@
     </button>
   </header>
 
-  <!-- ================= HERO ================= -->
   <main>
-    <section id="home" class="section hero">
+    <!-- HOME -->
+    <section id="home" class="section hero hero-section">
+      <div class="hero-bg-grid"></div>
+
       <div class="hero-inner">
         <div class="hero-text reveal">
           <p class="eyebrow">Cybersecurity • IT Support • Problem Solving</p>
           <h1>
-            Hi, I’m <span class="accent">Alex Walker</span><br />
-            <span class="hero-sub">ODU Cybersecurity Student & IT Intern</span>
+            Hi, I’m <span class="accent">Alex Walker</span>
           </h1>
+          <p class="hero-sub">ODU Cybersecurity Student &amp; Information Technology Specialist I</p>
           <p class="hero-body">
-            I’m a Cybersecurity major at Old Dominion University with hands-on experience
-            as an Engineering Desktop Support Technician. I work with system imaging,
-            troubleshooting, and security tools while building skills in Linux, Windows,
-            and networking.
+            I’m a Cybersecurity student at Old Dominion University with hands-on experience in
+            enterprise IT support, endpoint management, and technical troubleshooting. My work
+            at ODU has helped me grow from a student learning technical concepts into a professional
+            applying them in real support environments.
           </p>
+
           <div class="hero-tags">
-            <span class="pill">IT Support Technician</span>
-            <span class="pill">Engineering Desktop Support</span>
+            <span class="pill">Information Technology Specialist I</span>
+            <span class="pill">Digital Transformation &amp; Technology</span>
             <span class="pill">Intune &amp; ServiceNow</span>
           </div>
 
           <div class="hero-actions">
-            <a href="#internship" class="btn-primary">View Internship Presentation</a>
-            <a href="#experience" class="btn-ghost">Experience Overview</a>
+            <a href="#current-role" class="btn-primary">View Current Role</a>
+            <a href="#resume" class="btn-ghost">Open Resume</a>
           </div>
 
           <div class="hero-social">
-            <a href="#" aria-label="LinkedIn"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
+            <a href="https://www.linkedin.com/in/alexwalkerodu/" target="_blank" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:a5walker@odu.edu" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
           </div>
         </div>
 
         <div class="hero-visual reveal">
           <div class="hero-photo-wrap">
-            <img src="main.jpg" alt="Alex at Old Dominion University" />
+            <img src="main.jpg" alt="Portrait of Alex Walker" />
             <div class="hero-orbit hero-orbit--large"></div>
             <div class="hero-orbit hero-orbit--small"></div>
           </div>
+
           <div class="hero-stat-card">
             <p class="stat-label">Current Role</p>
-            <p class="stat-main">Engineering Desktop Support</p>
-            <p class="stat-sub">Batten College of Engineering &amp; Technology</p>
+            <p class="stat-main">Information Technology Specialist I</p>
+            <p class="stat-sub">Digital Transformation &amp; Technology • Old Dominion University</p>
           </div>
         </div>
       </div>
+
       <div class="hero-scroll-hint">Scroll to explore</div>
     </section>
 
-    <!-- ================= ABOUT ================= -->
-    <section id="about" class="section section-alt">
-      <div class="section-header reveal">
-        <h2>About Me</h2>
+    <!-- ABOUT -->
+<section id="about" class="section about-section about-bg">
+  <div class="section-header reveal">
+    <h2>About Me</h2>
+    <p>
+      My portfolio brings together academic work, technical experience, and professional growth in IT and cybersecurity.
+    </p>
+  </div>
+
+  <div class="about-shell">
+    <article class="card about-story-card reveal">
+      <p class="section-tag">Background</p>
+      <h3>How I Got Into Tech</h3>
+      <p>
+        I was born and raised in Norfolk, Virginia, and I’ve been interested in technology
+        for as long as I can remember. What started with curiosity around computers, gaming,
+        and security gradually turned into a real interest in systems, networking, and
+        cybersecurity.
+      </p>
+      <p>
+        Over time, that interest became more hands-on. I built and sold custom PCs, explored
+        technical labs, and kept learning through troubleshooting and experimentation. Those
+        experiences helped me develop both practical skills and a stronger sense of the kind
+        of work I wanted to pursue.
+      </p>
+    </article>
+
+    <article class="card about-growth-card reveal">
+      <p class="section-tag">Where I Am Now</p>
+      <h3>Student to IT Professional</h3>
+      <p>
+        Today, I’m pursuing my Cybersecurity degree at Old Dominion University while working
+        in IT at ODU. My experiences in support, systems, and enterprise technology have helped
+        me grow from a student learning the field into a professional actively contributing to it.
+      </p>
+
+      <div class="about-quote">
         <p>
-          From breaking things as a kid to fixing them as an intern, I’ve always been
-          curious about how technology works.
+          The part of technology I enjoy most is solving real problems, understanding how systems work,
+          and continuing to build a strong foundation for a future in cybersecurity.
+        </p>
+      </div>
+    </article>
+</section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section section-alt resume-section">
+      <div class="section-header reveal">
+        <h2>Resume</h2>
+        <p>
+          A current overview of my education, technical experience, and professional development in IT support and cybersecurity.
         </p>
       </div>
 
-      <div class="about-layout">
-        <article class="about-copy reveal">
+      <div class="resume-shell">
+        <article class="card resume-summary-card reveal">
+          <p class="section-tag">Professional Snapshot</p>
+          <h3>Experience, Education, and Technical Growth</h3>
           <p>
-            I was born and raised in Norfolk, Virginia, where my passion for technology
-            started at a young age. While playing games online, I ran into modders, and
-            that experience sparked my interest in cybersecurity. At 13, I attended the
-            GenCyber summer camp at Old Dominion University — the youngest participant
-            there — and it further fueled my curiosity about computers and security.
+            My resume reflects both my academic progress and my growth as an IT professional.
+            It highlights my current role at Old Dominion University, prior hands-on support
+            experience, and the technical work that continues to strengthen my background in
+            systems, troubleshooting, and cybersecurity.
           </p>
-          <p>
-            I started building and selling gaming PCs, which gave me both hands-on
-            technical experience and an entrepreneurial mindset. Outside of tech, I stayed
-            active playing varsity baseball and diving at Maury High School.
-          </p>
-          <p>
-            Today, I’m pursuing a Cybersecurity degree at ODU while working in IT on campus.
-            I’ve gained practical experience fixing a wide range of problems on Windows
-            machines. I’ve seen more blue screens than I can count and replaced even more
-            CMOS batteries, but those challenges taught me how to troubleshoot under
-            pressure and find creative solutions.
-          </p>
+
+          <div class="resume-stat-row">
+            <div class="mini-stat">
+              <span class="mini-stat-label">Current Role</span>
+              <span class="mini-stat-value">IT Specialist I</span>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-stat-label">Focus</span>
+              <span class="mini-stat-value">IT + Cybersecurity</span>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-stat-label">Environment</span>
+              <span class="mini-stat-value">ODU Enterprise IT</span>
+            </div>
+          </div>
+
+          <div class="resume-actions">
+            <a href="resume.pdf" target="_blank" class="btn-primary">Open Resume</a>
+            <a href="resume.pdf" download class="btn-ghost">Download PDF</a>
+          </div>
         </article>
 
-        <div class="about-photo reveal">
-          <div class="photo-frame">
-            <img src="computer.jpg" alt="Alex's computer setup" />
+        <article class="card resume-viewer-card reveal">
+          <div class="pdf-frame pdf-frame--resume">
+            <embed src="resume.pdf" type="application/pdf" />
           </div>
-          <p class="caption">My battlestation — where a lot of experiments begin.</p>
-        </div>
+        </article>
       </div>
     </section>
 
-    <!-- ================= SKILLS ================= -->
-    <section id="skills" class="section">
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
       <div class="section-header reveal">
         <h2>Skills</h2>
         <p>
-          A mix of IT support, cybersecurity fundamentals, and the tools I use daily to
-          keep systems running.
+          A mix of enterprise IT support skills, cybersecurity foundations, and the platforms I use in real environments.
         </p>
       </div>
 
-      <div class="skills-grid">
-        <div class="card skill-card reveal">
-          <h3>IT Support</h3>
+      <div class="skills-shell">
+        <article class="card skill-feature-card skill-feature-card--cyan reveal">
+          <p class="section-tag">Operations</p>
+          <h3>IT Support &amp; Troubleshooting</h3>
           <ul>
-            <li>Windows troubleshooting &amp; repair</li>
-            <li>Staff &amp; student ticket support</li>
-            <li>System imaging &amp; deployment</li>
-            <li>Hardware setup &amp; maintenance</li>
+            <li>Windows troubleshooting and repair</li>
+            <li>Ticket-based user support</li>
+            <li>Software installation and troubleshooting</li>
+            <li>Remote support workflows</li>
+            <li>Device setup and deployment</li>
           </ul>
-        </div>
+        </article>
 
-        <div class="card skill-card reveal">
-          <h3>Cybersecurity</h3>
+        <article class="card skill-feature-card skill-feature-card--purple reveal">
+          <p class="section-tag">Systems</p>
+          <h3>Cybersecurity &amp; Administration</h3>
           <ul>
-            <li>Linux &amp; Unix system administration</li>
-            <li>Networking fundamentals (TCP/IP, DNS, HTTP)</li>
-            <li>Basic security operations &amp; monitoring</li>
-            <li>Risk assessment &amp; troubleshooting</li>
-            <li>Introductory pentesting labs</li>
+            <li>Linux system administration fundamentals</li>
+            <li>Networking and security concepts</li>
+            <li>System hardening awareness</li>
+            <li>Risk and security mindset</li>
+            <li>Hands-on technical lab work</li>
           </ul>
-        </div>
+        </article>
 
-        <div class="card skill-card reveal">
-          <h3>Tools &amp; Platforms</h3>
+        <article class="card skill-feature-card skill-feature-card--green reveal">
+          <p class="section-tag">Platforms</p>
+          <h3>Tools &amp; Technologies</h3>
           <ul>
-            <li>PowerShell &amp; automation basics</li>
-            <li>Microsoft Intune &amp; device management</li>
-            <li>ServiceNow ticketing</li>
-            <li>Virtualization (VMware, VirtualBox)</li>
-            <li>pfSense &amp; network tinkering</li>
+            <li>Microsoft Intune</li>
+            <li>ServiceNow</li>
+            <li>PowerShell basics</li>
+            <li>LogMeIn Resolve</li>
+            <li>VirtualBox / VMware</li>
           </ul>
-        </div>
+        </article>
       </div>
 
-      <div class="extra-skills reveal">
-        <h3>Also fluent in</h3>
-        <div class="tool-logos">
-          <img src="images/skills/kali.png" alt="Kali Linux" />
-          <img src="images/skills/burpsuite.png" alt="Burp Suite" />
-          <img src="images/skills/metasploit.png" alt="Metasploit" />
-          <img src="images/skills/nmap.png" alt="Nmap" />
-          <img src="images/skills/sqlmap.png" alt="SQLmap" />
+      <div class="skills-band reveal">
+        <h3>Core Strengths</h3>
+        <div class="chip-panel">
+          <span class="skill-chip">Windows</span>
+          <span class="skill-chip">Linux</span>
+          <span class="skill-chip">ServiceNow</span>
+          <span class="skill-chip">Intune</span>
+          <span class="skill-chip">Networking</span>
+          <span class="skill-chip">Endpoint Support</span>
+          <span class="skill-chip">Troubleshooting</span>
+          <span class="skill-chip">Cybersecurity</span>
         </div>
       </div>
     </section>
 
-    <!-- ================= EDUCATION ================= -->
-    <section id="education" class="section section-alt">
+    <!-- EDUCATION -->
+    <section id="education" class="section section-alt education-section">
       <div class="section-header reveal">
         <h2>Education</h2>
-        <p>Blending classroom learning with real-world IT and cybersecurity experience.</p>
+        <p>
+          My academic path has combined technical coursework, reflective writing, and applied learning experiences.
+        </p>
       </div>
 
-      <div class="edu-timeline">
-        <article class="edu-item reveal">
-          <div class="dot"></div>
-          <div class="edu-content">
-            <img
-              src="images/tcc-logo.png"
-              alt="Tidewater Community College"
-              class="edu-logo"
-            />
+      <div class="education-shell">
+        <article class="edu-panel edu-panel--left reveal">
+          <div class="edu-dot"></div>
+          <div class="card edu-card">
+            <p class="section-tag">Foundation</p>
             <h3>Tidewater Community College</h3>
             <span class="edu-meta">Associate of Applied Science — Cybersecurity</span>
-            <p>Dean’s List; focused on core cybersecurity principles, networking, and labs.</p>
+            <p>
+              Built my foundation in cybersecurity, networking, systems, and technical labs while
+              strengthening my interest in both hands-on troubleshooting and digital security.
+            </p>
           </div>
         </article>
 
-        <article class="edu-item reveal">
-          <div class="dot"></div>
-          <div class="edu-content">
-            <img src="images/odu-logo.png" alt="Old Dominion University" class="edu-logo" />
+        <article class="edu-panel edu-panel--right reveal">
+          <div class="edu-dot"></div>
+          <div class="card edu-card">
+            <p class="section-tag">Current Program</p>
             <h3>Old Dominion University</h3>
-            <span class="edu-meta">Senior — B.S. in Cybersecurity</span>
+            <span class="edu-meta">B.S. in Cybersecurity</span>
             <p>
-              Real-world experience as an IT Support Technician; focus on security operations,
-              risk management, and system defense.
+              Expanded my skills through coursework in Linux systems, network security, cyber strategy,
+              professional writing, and internship-based learning while also gaining real-world IT experience at ODU.
             </p>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ================= EXPERIENCE ================= -->
-    <section id="experience" class="section">
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience-section">
       <div class="section-header reveal">
         <h2>Experience</h2>
         <p>
-          Supporting users, solving problems, and learning how IT actually works behind the
-          scenes.
+          A focused overview of the technical roles and work that have shaped my growth in IT and cybersecurity.
         </p>
       </div>
 
-      <div class="experience-grid">
-        <article class="card experience-card reveal">
-          <h3>Old Dominion University</h3>
-          <span class="exp-date">IT Support Technician – Present</span>
+      <div class="experience-shell">
+        <article class="card timeline-card timeline-card--primary reveal">
+          <p class="section-tag">Present</p>
+          <h3>Information Technology Specialist I</h3>
+          <span class="exp-date">Old Dominion University • Digital Transformation &amp; Technology</span>
           <p>
-            • Provide technical support for faculty, staff, and students across campus.<br />
-            • Image, configure, and deploy Windows machines in academic labs.<br />
-            • Troubleshoot blue screens, hardware failures, and network issues.<br />
-            • Work with ServiceNow to track and resolve tickets efficiently.
+            Supports users and systems in a university IT environment while working with ticket workflows,
+            troubleshooting, endpoint tools, and enterprise support processes.
           </p>
         </article>
 
-        <article class="card experience-card reveal">
+        <article class="card timeline-card reveal">
+          <p class="section-tag">Previous ODU Role</p>
+          <h3>Engineering Desktop Support Technician</h3>
+          <span class="exp-date">Old Dominion University • Past Internship</span>
+          <p>
+            Built experience in hardware troubleshooting, device setup, lab support, imaging, and
+            technical operations in academic spaces.
+          </p>
+        </article>
+
+        <article class="card timeline-card reveal">
+          <p class="section-tag">Independent Work</p>
           <h3>Freelance PC Builder</h3>
           <span class="exp-date">2018 – Present</span>
           <p>
-            • Built and sold custom gaming PCs end-to-end.<br />
-            • Diagnosed and fixed hardware and software issues.<br />
-            • Developed client communication and expectation management skills.
-          </p>
-        </article>
-
-        <article class="card experience-card reveal">
-          <h3>Restaurant Server</h3>
-          <span class="exp-date">2018 – Present</span>
-          <p>
-            • 6+ years in a fast-paced environment.<br />
-            • Strengthened communication, teamwork, and multitasking.<br />
-            • Learned how to stay calm under pressure and handle many tasks at once.
+            Built and sold custom PCs, diagnosed hardware and software issues, and developed practical
+            experience with technical problem solving and client communication.
           </p>
         </article>
       </div>
     </section>
 
-    <!-- ================= CYSE 201S ================= -->
-<!-- ================= CYSE 201S ================= -->
-<section id="cyse" class="section section-alt">
-  <div class="section-header reveal">
-    <h2>CYSE 201S</h2>
-    <p>
-      Selected writing and projects from CYSE 201S, connecting cybersecurity and the
-      social sciences to real-world IT work.
-    </p>
-  </div>
-
-  <div class="cyse-grid">
-
-    <!-- ARTICLE REVIEW 1 -->
-    <article class="card cyse-card reveal">
-      <h3>Article Review #1 — Bugs in Our Pockets</h3>
-      <p class="cyse-meta">
-        Critical review of <em>Bugs in Our Pockets: The Risks of Client-Side Scanning</em>,
-        focusing on surveillance, power, and privacy trade-offs.
-      </p>
-      <div class="pdf-frame">
-        <embed
-          src="Review1.pdf"
-          type="application/pdf"
-          />
-      </div>
-    </article>
-
-    <!-- ARTICLE REVIEW 2 -->
-    <article class="card cyse-card reveal">
-      <h3>Article Review #2 — Psychological Profile of Cybercriminals</h3>
-      <p class="cyse-meta">
-        Summary of a systematic review on cybercriminal traits like narcissism,
-        impulsivity, and technical skill, and what they mean for prevention.
-      </p>
-      <div class="pdf-frame">
-        <embed
-          src="Review2.pdf"
-          type="application/pdf"
-          />
-      </div>
-    </article>
-
-    <!-- CAREER PAPER -->
-    <article class="card cyse-card reveal">
-      <h3>Cybersecurity Professional Career Paper</h3>
-      <p class="cyse-meta">
-        Career reflection on the role of a cybersecurity analyst, emphasizing human
-        behavior, ethics, and the impact on critical infrastructure.
-      </p>
-      <div class="pdf-frame">
-        <embed
-          src="Career.pdf"
-          type="application/pdf"
-          />
-      </div>
-    </article>
-
-    <!-- PRESENTATION -->
-    <article class="card cyse-card reveal">
-      <h3>Cybersecurity Presentation — Healthcare</h3>
-      <p class="cyse-meta">
-        Group presentation on cybersecurity in healthcare, covering ransomware,
-        outdated systems, and the People / Tech / Policy triangle.
-      </p>
-      <div class="pdf-frame">
-        <embed
-          src="Presentation.pdf"
-          type="application/pdf"
-          />
-      </div>
-    </article>
-
-  </div>
-</section>
-
-<!-- ================= PHISHING RESEARCH PAPER ================= -->
-<section id="phishing" class="section section-alt">
-  <div class="section-header reveal">
-    <h2>Phishing Research Paper</h2>
-    <p>
-      An interdisciplinary analysis of phishing that connects cybersecurity, human
-      psychology, sociology, and philosophy to explain how attackers manipulate people.
-    </p>
-  </div>
-
-  <article class="card phish-card reveal">
-
-    <!-- IMAGE -->
-    <div class="phish-media">
-      <img src="iStock-phishing-1200.jpg" alt="Phishing attack visual with email on a hook" />
-    </div>
-
-    <!-- DESCRIPTION -->
-    <p class="phish-description">
-      This research paper explores phishing as a socio-technical cybercrime, examining how
-      emotional triggers, cognitive biases, heuristics, reasoning failures, and deceptive interface
-      design increase human vulnerability. The analysis integrates concepts from psychology,
-      criminology, philosophy (epistemology & deception), and computer science to show why
-      phishing attacks succeed — and how organizations can defend against them. 
-    </p>
-
-    <!-- PDF VIEWER -->
-    <div class="pdf-frame">
-      <embed
-        src="FINALRESEARCHPAPERROUGHDRAFT2.pdf"
-        type="application/pdf"
-        />
-    </div>
-
-  </article>
-</section>
-
-
-    <!-- ================= INTERNSHIP PRESENTATION ================= -->
-    <section id="internship" class="section internship-section">
-      <!-- HERO BANNER -->
-      <div class="internship-hero-wrap">
-        <img
-          src="kauf.jpg"
-          alt="Kaufman Hall at Old Dominion University"
-          class="internship-hero-img"
-        />
-        <div class="internship-hero-overlay"></div>
-        <div class="internship-hero-text reveal">
-          <h2>Engineering Desktop Support Internship Presentation</h2>
-          <p class="internship-tagline">
-            Supporting the technology that powers engineering education at ODU.
-          </p>
-          <div class="internship-meta-grid">
-            <div>
-              <span class="meta-label">Intern</span>
-              <span class="meta-value">Alex Walker</span>
-            </div>
-            <div>
-              <span class="meta-label">Program</span>
-              <span class="meta-value">B.S. Cybersecurity, Senior</span>
-            </div>
-            <div>
-              <span class="meta-label">Site</span>
-              <span class="meta-value">Batten College of Engineering &amp; Technology</span>
-            </div>
-            <div>
-              <span class="meta-label">Role</span>
-              <span class="meta-value">Engineering Desktop Support Technician (TSP)</span>
-            </div>
-            <div>
-              <span class="meta-label">Supervisors</span>
-              <span class="meta-value">Bryan Magary, Andrew Boone, Chelsey Zirkle</span>
-            </div>
-            <div>
-              <span class="meta-label">Dates</span>
-              <span class="meta-value">October 2024 – Present</span>
-            </div>
-          </div>
-        </div>
+    <!-- CURRENT ROLE -->
+    <section id="current-role" class="section current-role-section">
+      <div class="section-header reveal">
+        <h2>Current Role</h2>
+        <p>
+          My current position reflects the next step in my professional development, moving from student internship work into a broader IT support role.
+        </p>
       </div>
 
-      <!-- INTRO -->
-      <div class="internship-inner">
-        <div class="section-header small reveal">
-          <h3>Introduction</h3>
+      <div class="current-role-shell">
+        <div class="current-role-top">
+          <article class="card role-hero-card reveal">
+            <p class="role-label">Current Position</p>
+            <h3>Information Technology Specialist I</h3>
+            <p class="role-meta">
+              Digital Transformation &amp; Technology • Old Dominion University
+            </p>
+            <p class="role-hero-copy">
+              In my current role, I support users and systems in an enterprise university IT
+              environment. This position has strengthened my technical troubleshooting,
+              communication, and ability to manage issues in a structured support setting while
+              continuing to build my foundation in systems and cybersecurity.
+            </p>
+
+            <div class="role-pill-row">
+              <span class="skill-chip">ServiceNow</span>
+              <span class="skill-chip">Intune</span>
+              <span class="skill-chip">Remote Support</span>
+              <span class="skill-chip">Troubleshooting</span>
+            </div>
+          </article>
+
+          <article class="card role-highlight-card reveal">
+            <h3>Role Highlights</h3>
+            <ul class="feature-list">
+              <li>Support users through structured ticket workflows</li>
+              <li>Troubleshoot hardware, software, and access-related issues</li>
+              <li>Work with endpoint and device management tools</li>
+              <li>Assist with software deployment and technical setup</li>
+              <li>Build experience in enterprise IT operations</li>
+            </ul>
+          </article>
         </div>
 
-        <div class="internship-two-col">
-          <div class="card intro-card reveal">
-            <h4>About the Department</h4>
+        <div class="current-role-mid">
+          <article class="card role-mini-card reveal">
+            <p class="mini-label">Technical Support</p>
+            <h4>User-Focused Problem Solving</h4>
             <p>
-              The Batten College of Engineering &amp; Technology supports hundreds of students
-              and faculty who rely on computer labs, classroom technology, and specialized
-              software every day. The IT team in Kaufman Hall keeps these systems secure,
-              updated, and ready for use — from general-purpose labs to faculty workstations
-              and teaching spaces.
+              Provide direct support for users experiencing system, software, and device issues,
+              helping restore productivity and resolve technical problems efficiently.
+            </p>
+          </article>
+
+          <article class="card role-mini-card reveal">
+            <p class="mini-label">Enterprise Tools</p>
+            <h4>Structured IT Workflow</h4>
+            <p>
+              Work with platforms such as ServiceNow, Intune, and remote support tools to manage
+              requests, devices, and support processes in a professional environment.
+            </p>
+          </article>
+
+          <article class="card role-mini-card reveal">
+            <p class="mini-label">Professional Growth</p>
+            <h4>Building Technical Maturity</h4>
+            <p>
+              This role has helped me grow in confidence, technical maturity, and professionalism
+              by giving me direct exposure to real support operations and enterprise systems.
+            </p>
+          </article>
+        </div>
+
+        <article class="card role-reflection-band reveal">
+          <div class="reflection-left">
+            <p class="mini-label">Career Direction</p>
+            <h3>Why This Role Matters</h3>
+          </div>
+          <div class="reflection-right">
+            <p>
+              My current position continues to strengthen the IT foundation that supports my
+              long-term goals in cybersecurity, systems, and technical operations. It has helped
+              me move from learning technical concepts in the classroom to applying them in a real,
+              service-oriented environment.
             </p>
           </div>
+        </article>
+      </div>
+    </section>
 
-          <div class="card intro-card reveal">
-            <h4>My Role</h4>
-            <p>
-              As an Engineering Desktop Support Technician, I helped maintain and deploy the
-              Windows systems used across the college. My work included imaging lab computers,
-              troubleshooting hardware and software issues, performing upgrades and repairs,
-              and assisting faculty and staff through our ticketing system.
+    <!-- PAST INTERNSHIP -->
+    <section id="past-internship" class="section section-alt past-internship-section">
+      <div class="section-header reveal">
+        <h2>Past Internship</h2>
+        <p>
+          This internship gave me the hands-on experience that helped build the foundation for my current role in university IT support.
+        </p>
+      </div>
+
+      <div class="internship-shell">
+        <div class="internship-top">
+          <article class="card internship-story-card reveal">
+            <p class="internship-label">Foundation Experience</p>
+            <h3>Engineering Desktop Support Technician</h3>
+            <p class="internship-meta">
+              Batten College of Engineering &amp; Technology • Old Dominion University
             </p>
-          </div>
-        </div>
-
-        <!-- RESPONSIBILITIES -->
-        <div class="section-header small reveal">
-          <h3>Key Responsibilities</h3>
-        </div>
-
-        <div class="responsibilities-grid">
-          <article class="card resp-card reveal">
-            <h4>Lab Deployment &amp; Imaging</h4>
-            <p>
-              Imaged and configured Windows lab machines, joined systems to the domain,
-              enrolled them in Intune, and verified software, drivers, and classroom readiness
-              before the semester.
-            </p>
-          </article>
-
-          <article class="card resp-card reveal">
-            <h4>Hardware Troubleshooting</h4>
-            <p>
-              Opened desktops to diagnose RAM, SSD, and motherboard issues; replaced failing
-              components; and tested systems to ensure they were stable before returning them
-              to service.
+            <p class="internship-copy">
+              During this internship, I supported engineering spaces through imaging, deployment,
+              workstation setup, and hardware troubleshooting. It was one of the first experiences
+              that showed me how technical work supports real users and real learning environments.
             </p>
           </article>
 
-          <article class="card resp-card reveal">
-            <h4>Cable Management &amp; Workstations</h4>
-            <p>
-              Built clean, organized workstations for faculty and labs, including monitor,
-              dock, and peripheral cabling to keep setups easy to use and maintain.
-            </p>
-          </article>
-
-          <article class="card resp-card reveal">
-            <h4>Equipment Delivery &amp; Storage</h4>
-            <p>
-              Loaded carts with computers and monitors for lab builds, delivered and installed
-              equipment on-site, and organized storage to prepare devices for future
-              deployments.
-            </p>
+          <article class="card internship-growth-card reveal">
+            <p class="internship-label">What It Built</p>
+            <ul class="feature-list">
+              <li>Hands-on hardware troubleshooting experience</li>
+              <li>Exposure to imaging and deployment workflows</li>
+              <li>Stronger technical problem-solving under pressure</li>
+              <li>Experience supporting labs, classrooms, and user spaces</li>
+              <li>A direct path into my current IT role at ODU</li>
+            </ul>
           </article>
         </div>
 
-        <!-- GALLERY -->
-        <div class="section-header small reveal">
-          <h3>Responsibilities in Action</h3>
+        <div class="internship-gallery-grid">
+          <figure class="internship-photo-card reveal">
+            <img src="IMG_5710.PNG" alt="Engineering computer lab supported during internship" />
+            <figcaption>Lab setup and support environment.</figcaption>
+          </figure>
+
+          <figure class="internship-photo-card reveal">
+            <img src="IMG_5720.PNG" alt="Cable-managed workstation from internship work" />
+            <figcaption>Workstation organization and setup.</figcaption>
+          </figure>
+
+          <figure class="internship-photo-card reveal">
+            <img src="IMG_5715.PNG" alt="Open desktop showing hands-on troubleshooting work" />
+            <figcaption>Hands-on hardware troubleshooting.</figcaption>
+          </figure>
+
+          <figure class="internship-photo-card reveal">
+            <img src="IMG_5708.PNG" alt="Equipment cart used for deployment and setup" />
+            <figcaption>Equipment staging and deployment.</figcaption>
+          </figure>
+        </div>
+
+        <div class="internship-bottom">
+          <article class="card internship-focus-card reveal">
+            <p class="internship-label">Imaging &amp; Deployment</p>
+            <h4>Preparing Systems for Use</h4>
+            <p>
+              Assisted with configuring and deploying systems for academic spaces, helping ensure
+              devices were ready for students, faculty, and staff.
+            </p>
+          </article>
+
+          <article class="card internship-focus-card reveal">
+            <p class="internship-label">Hardware Troubleshooting</p>
+            <h4>Hands-On Technical Work</h4>
+            <p>
+              Diagnosed issues related to components, system stability, and workstation functionality,
+              building confidence with physical troubleshooting and repair.
+            </p>
+          </article>
+
+          <article class="card internship-focus-card reveal">
+            <p class="internship-label">Support Readiness</p>
+            <h4>Keeping Environments Functional</h4>
+            <p>
+              Helped make sure classrooms, labs, and support spaces stayed functional, organized,
+              and ready for real use.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- IDS 493 -->
+    <section id="ids493" class="section ids-section">
+      <div class="section-header reveal">
+        <h2>IDS 493</h2>
+        <p>
+          This section reflects the purpose of the electronic portfolio project: collecting evidence of learning, presenting work intentionally, and reflecting on growth across experiences.
+        </p>
+      </div>
+
+      <div class="ids-shell">
+        <article class="card ids-editorial-card reveal">
+          <p class="section-tag">Portfolio Purpose</p>
+          <h3>More Than a Collection of Assignments</h3>
           <p>
-            A look at the spaces, hardware, and small details that keep engineering labs
-            running.
+            IDS 493 challenged me to think more intentionally about how I present my academic,
+            technical, and professional experiences. Rather than simply collecting assignments,
+            this portfolio helps me connect coursework, reflection, and career development in one place.
           </p>
-        </div>
+        </article>
 
-        <div class="gallery-grid">
-          <figure class="gallery-item reveal">
-            <img src="IMG_5710.PNG" alt="Engineering computer lab" />
-            <figcaption>Lab I helped set up and image for engineering courses.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="IMG_5720.PNG" alt="Cable managed workstation" />
-            <figcaption>Cable-managed workstation for a faculty member.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="IMG_5715.PNG" alt="Open desktop showing components" />
-            <figcaption>Open system while troubleshooting hardware issues.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="IMG_5708.PNG" alt="Cart with computers and monitors" />
-            <figcaption>Cart loaded with devices for a new lab deployment.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="IMG_5707.PNG" alt="Office and workbench" />
-            <figcaption>My workspace in Kaufman Hall during the internship.</figcaption>
-          </figure>
-
-          <figure class="gallery-item reveal">
-            <img src="IMG_5712.PNG" alt="ODU spelled in Christmas lights" />
-            <figcaption>“ODU” in Christmas lights — a small highlight from the office.</figcaption>
-          </figure>
-        </div>
-
-        <!-- SKILLS & LEARNING -->
-        <div class="section-header small reveal">
-          <h3>Skills &amp; Learning</h3>
-          <p>How this internship grew both my technical depth and professional skills.</p>
-        </div>
-
-        <div class="competency-grid">
-          <article class="card competency-card reveal">
-            <h4>Critical Thinking &amp; Problem Solving</h4>
-            <p>
-              I frequently had to isolate the root cause of issues across hardware, software,
-              and networking. From blue screens to failed enrollments, I learned to break
-              problems down into layers, test hypotheses, and confirm fixes before returning
-              machines to service.
-            </p>
-          </article>
-
-          <article class="card competency-card reveal">
-            <h4>Career &amp; Self-Development</h4>
-            <p>
-              This role pushed me to keep learning on my own — reading documentation, asking
-              questions, and experimenting safely. I became more confident working
-              independently, managing my time, and seeking feedback from supervisors to keep
-              improving.
-            </p>
-          </article>
-        </div>
-
-        <h4 class="skills-title reveal">Technical Skills Strengthened</h4>
-        <div class="skills-chip-row reveal">
-          <span class="skill-chip">PowerShell</span>
-          <span class="skill-chip">Software Packaging &amp; Deployment</span>
-          <span class="skill-chip">Microsoft Intune</span>
-          <span class="skill-chip">ServiceNow Ticketing</span>
-          <span class="skill-chip">Networking Fundamentals</span>
-        </div>
-
-        <h4 class="challenges-title reveal">Challenges &amp; How I Overcame Them</h4>
-        <div class="challenge-grid">
-          <article class="card challenge-card reveal">
-            <h5>Devices Not Enrolling or Syncing Correctly</h5>
-            <p>
-              Some systems wouldn’t show up or sync in Intune. I used PowerShell and built-in
-              troubleshooting steps to re-run enrollment, clear old records, manually trigger
-              syncs, and review logs to confirm that policies were being applied.
-            </p>
-          </article>
-
-          <article class="card challenge-card reveal">
-            <h5>Unstable or Failing Lab Machines</h5>
-            <p>
-              Certain lab computers crashed or wouldn’t boot. I opened systems, reseated
-              components, tested RAM and drives, and used imaging tools to deploy clean builds,
-              learning how hardware, drivers, and software all interact.
-            </p>
-          </article>
-
-          <article class="card challenge-card reveal">
-            <h5>Balancing Tickets, Projects, and Deadlines</h5>
-            <p>
-              During busy periods I juggled lab setups, individual tickets, and ongoing
-              projects. I learned to prioritize based on impact, communicate status updates,
-              and break work into manageable steps so critical classrooms were ready on time.
-            </p>
-          </article>
-        </div>
-
-        <!-- IMPACT -->
-        <div class="section-header small reveal">
-          <h3>Impact &amp; Reflection</h3>
-        </div>
-
-        <div class="impact-grid">
-          <article class="card impact-card reveal">
-            <h4>Impact on the Department</h4>
-            <p>
-              Ensured labs were ready for classes, reduced downtime from hardware and software
-              issues, improved workstation setups, and supported faculty and staff with
-              reliable technical assistance.
-            </p>
-          </article>
-
-          <article class="card impact-card reveal">
-            <h4>Impact on My Career Path</h4>
-            <p>
-              Reinforced my interest in cybersecurity and system management, built confidence
-              with enterprise tools, and confirmed my goal of pursuing a cybersecurity career
-              with a strong technical foundation.
-            </p>
-          </article>
-        </div>
-
-        <div class="internship-conclusion reveal">
+        <article class="card ids-editorial-card ids-editorial-card--accent reveal">
+          <p class="section-tag">Intentional Design</p>
+          <h3>Accessibility and Structure</h3>
           <p>
-            This internship gave me a deeper understanding of how technology supports
-            education at scale. From lab setup to hardware repair to full system deployment,
-            every task helped me grow into a more capable, confident, and adaptable IT
-            professional.
+            I designed this portfolio with readability, contrast, clear navigation, and section
+            structure in mind. My goal was to make the site visually strong while still keeping it
+            organized, accessible, and easy to follow for different audiences.
           </p>
-        </div>
+        </article>
+
+        <article class="card ids-reflection-card reveal">
+          <p class="section-tag">Reflection</p>
+          <h3>What This Portfolio Shows</h3>
+          <p>
+            One of the most valuable parts of this project has been seeing how my coursework,
+            internship work, and current IT role all connect. They are not separate experiences,
+            but parts of the same larger story of growth in cybersecurity and technical support.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COURSEWORK -->
+    <section id="coursework" class="section section-alt coursework-section">
+      <div class="section-header reveal">
+        <h2>Coursework</h2>
+        <p>
+          These course areas represent major parts of my academic development and showcase the courses and experiences that shaped my knowledge in cybersecurity and IT.
+        </p>
+      </div>
+
+      <div class="coursework-shell">
+        <article class="card course-card course-card--cyan reveal">
+          <p class="section-tag">Networking</p>
+          <h3>IT 315</h3>
+          <span class="course-meta">Intro Network &amp; Security</span>
+          <p>
+            Focused on networking fundamentals, system communication, and security concepts that support a strong technical foundation.
+          </p>
+        </article>
+
+        <article class="card course-card course-card--purple reveal">
+          <p class="section-tag">Strategy</p>
+          <h3>CYSE 425W</h3>
+          <span class="course-meta">Cyber Strategy and Policy</span>
+          <p>
+            Explored the broader strategic, organizational, and policy dimensions of cybersecurity and how technical issues intersect with real institutions.
+          </p>
+        </article>
+
+        <article class="card course-card course-card--green reveal">
+          <p class="section-tag">Systems Security</p>
+          <h3>CS 464</h3>
+          <span class="course-meta">Networked Systems Security</span>
+          <p>
+            Expanded my understanding of system security, networked environments, and the ways technical protections are applied in practice.
+          </p>
+        </article>
+
+        <article class="card course-card course-card--cyan reveal">
+          <p class="section-tag">Linux</p>
+          <h3>CYSE 270</h3>
+          <span class="course-meta">Linux System for Cybersecurity</span>
+          <p>
+            Strengthened my comfort with Linux commands, permissions, system administration, and security-related workflows.
+          </p>
+        </article>
+
+        <article class="card course-card course-card--purple reveal">
+          <p class="section-tag">Experience</p>
+          <h3>CYSE 368</h3>
+          <span class="course-meta">Cybersecurity Internship</span>
+          <p>
+            Connected classroom learning to real-world technical support and professional growth in IT through hands-on experience.
+          </p>
+        </article>
+
+        <article class="card course-card course-card--green reveal">
+          <p class="section-tag">Windows</p>
+          <h3>CYSE 280</h3>
+          <span class="course-meta">Windows Systems Management and Security</span>
+          <p>
+            Built my understanding of Windows-based administration, systems management, and practical security concepts.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header reveal">
+        <h2>Contact</h2>
+        <p>
+          Thank you for taking the time to view my portfolio. Feel free to reach out if you would like to connect or learn more about my work.
+        </p>
+      </div>
+
+      <div class="contact-shell">
+        <article class="card contact-feature-card reveal">
+          <p class="section-tag">Let’s Connect</p>
+          <h3>Professional Contact Information</h3>
+          <p>
+            I’m always open to connecting about IT support, cybersecurity, technical growth,
+            and future opportunities.
+          </p>
+        </article>
+
+        <article class="card contact-card reveal">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:a5walker@odu.edu">a5walker@odu.edu</a></p>
+        </article>
+
+        <article class="card contact-card reveal">
+          <i class="fa-brands fa-linkedin-in contact-icon"></i>
+          <h3>LinkedIn</h3>
+          <p>
+            <a href="https://www.linkedin.com/in/alexwalkerodu/" target="_blank">
+              linkedin.com/in/alexwalkerodu
+            </a>
+          </p>
+        </article>
+
+        <article class="card contact-card reveal">
+          <i class="fa-solid fa-file-lines contact-icon"></i>
+          <h3>Resume</h3>
+          <p><a href="resume.pdf" target="_blank">Open Resume PDF</a></p>
+        </article>
       </div>
     </section>
   </main>
 
-  <!-- ================= FOOTER ================= -->
   <footer class="site-footer">
     <p>&copy; <span id="year"></span> Alex Walker • Old Dominion University</p>
   </footer>
 
-  <!-- ================= SCRIPTS ================= -->
   <script>
-    // Mobile nav toggle
     const navToggle = document.querySelector(".nav-toggle");
     const nav = document.querySelector(".nav");
+
     navToggle.addEventListener("click", () => {
       navToggle.classList.toggle("open");
       nav.classList.toggle("open");
     });
 
-    // Active link on scroll
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-link");
 
     window.addEventListener("scroll", () => {
       let current = "";
       sections.forEach((section) => {
-        const top = section.offsetTop - 120;
-        if (pageYOffset >= top) {
+        const top = section.offsetTop - 140;
+        if (window.pageYOffset >= top) {
           current = section.getAttribute("id");
         }
       });
+
       navLinks.forEach((link) => {
         link.classList.remove("active");
         if (link.getAttribute("href") === "#" + current) {
@@ -676,7 +701,6 @@
       });
     });
 
-    // Scroll reveal animation
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -685,12 +709,10 @@
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.14 }
     );
 
     document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
-
-    // Footer year
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>

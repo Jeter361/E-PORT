@@ -1378,3 +1378,54 @@ img {
   position: relative;
   z-index: 2;
 }
+
+/* CYSE BUTTON */
+.btn-cyse {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.15rem 2.2rem;
+  border-radius: 999px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(120deg, #22c55e, #38bdf8);
+  color: #06101e;
+  box-shadow: 0 15px 35px rgba(34, 197, 94, 0.35);
+  transition: 0.25s ease;
+}
+
+.btn-cyse:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+/* CYSE SECTION */
+.cyse-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.cyse-card h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Make PDFs slightly smaller than resume for better layout */
+.cyse-card .pdf-frame embed {
+  height: 50rem;
+}
+
+/* Mobile fix */
+@media (max-width: 900px) {
+  .cyse-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cyse-card .pdf-frame embed {
+    height: 60rem;
+  }
+}

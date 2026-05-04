@@ -1430,35 +1430,8 @@ img {
   }
 }
 
-/* VIDEO FRAME (matches PDF styling) */
-.video-frame {
-  margin-top: 1.5rem;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid var(--border-soft);
-  background: #020617;
-  box-shadow: var(--shadow-soft);
-  position: relative;
-}
-
-/* video element */
-.video-frame video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* subtle hover effect */
-.video-frame:hover {
-  box-shadow:
-    var(--shadow-soft),
-    0 0 25px rgba(56, 189, 248, 0.15);
-  border-color: rgba(56, 189, 248, 0.35);
-  transition: 0.25s ease;
-}
-
-/* VIDEO FRAME (matches PDF styling) */
-.video-frame {
+/* IMAGE FRAME (matches your theme) */
+.image-frame {
   margin-top: 1.5rem;
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -1467,26 +1440,18 @@ img {
   box-shadow: var(--shadow-soft);
 }
 
-/* video itself */
-.video-frame video {
+/* image styling */
+.image-frame img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: var(--radius-md);
 }
 
-/* hover glow (same vibe as cards) */
-.video-frame:hover {
+/* hover effect */
+.image-frame:hover {
   box-shadow:
     var(--shadow-soft),
     0 0 25px rgba(56, 189, 248, 0.15);
   border-color: rgba(56, 189, 248, 0.35);
   transition: 0.25s ease;
-}
-
-/* mobile sizing */
-@media (max-width: 900px) {
-  .video-frame video {
-    max-height: 40rem;
-  }
 }

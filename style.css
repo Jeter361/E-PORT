@@ -625,8 +625,20 @@ img {
 
 .pdf-frame embed {
   width: 100%;
-  height: 78rem;
+  height: 55rem; /* reduced from 78 */
   display: block;
+}
+
+/* fix spacing between stacked PDFs */
+.cyse-card .pdf-frame {
+  margin-top: 1.5rem;
+}
+
+/* remove extra bottom space */
+.cyse-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* SKILLS */
@@ -1454,4 +1466,21 @@ img {
     0 0 25px rgba(56, 189, 248, 0.15);
   border-color: rgba(56, 189, 248, 0.35);
   transition: 0.25s ease;
+}
+
+.artifact-subtext {
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-size: 1.4rem;
+}
+
+.artifact-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  color: var(--text-main);
+}
+
+.artifact-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
 }
